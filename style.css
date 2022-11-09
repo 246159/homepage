@@ -1,8 +1,9 @@
 body{
-    background: black;
+    background: white;
     margin: 0%;
 }
 body {
+    font-family: 'Cutive Mono', monospace;
     margin: 0;
     overflow: hidden;
     position: relative;
@@ -23,6 +24,7 @@ canvas {
 
 button {
     position: absolute;
+
     bottom: 5%;
     left: 50%;
     transform: translateX(-50%);
@@ -32,8 +34,6 @@ button {
     padding: 0.5rem 0.9em;
     background: #000000;
     color: white;
-    -webkit-font-smoothing: antialiased;
-    font-weight: bold;
     cursor: pointer;
     transition: all .5s;
 }
@@ -46,6 +46,7 @@ form{
     width:100%;
     max-width:600px;
     margin:0 auto;
+    font-family: 'Cutive Mono', monospace;
  }
  input{
     width:100%;
@@ -55,6 +56,8 @@ form{
     border:none;
     padding:10px;
     outline:none;
+    text-decoration-color: green;
+    font-family: 'Cutive Mono', monospace;
  }
  .search-bar{
     width:85%;
@@ -65,3 +68,6 @@ form{
     color:#FFF;
  }
  
+ <style>
+ @import url('https://fonts.googleapis.com/css2?family=Blaka&family=Cutive+Mono&family=Nabla&display=swap');
+ </style>               
